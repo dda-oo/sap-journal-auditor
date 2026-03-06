@@ -1,7 +1,13 @@
 /**
- * tests/test.js
- * Automated tests for SAP Journal Auditor.
+ * SAP Journal Auditor - Test Suite
+ * Automated tests for all audit check implementations.
+ *
+ * @author Daryoosh Dehestani (https://github.com/dda-oo)
+ * @organization RadarRoster (https://radarroster.com)
+ * @license CC-BY-4.0
+ *
  * Run with: node tests/test.js
+ * Expected: 34 tests passing
  */
 
 "use strict";

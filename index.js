@@ -1,14 +1,18 @@
 /**
- * SAP Journal Auditor — OpenClaw Skill
- * Author: RadarRoster (https://radarroster.com)
- * License: MIT
+ * SAP Journal Auditor
+ * Enterprise-grade SAP FI/CO journal audit automation
  *
- * Audits SAP FI/CO journal entry exports (CSV/Excel) for:
+ * @author Daryoosh Dehestani (https://github.com/dda-oo)
+ * @organization RadarRoster (https://radarroster.com)
+ * @license CC-BY-4.0
+ *
+ * Detects anomalies in SAP FI/CO journal entry exports:
  *   - Duplicate postings
- *   - Round-amount / end-of-period anomalies
+ *   - Round-amount / period-end irregularities
  *   - Unusual cost center assignments
  *   - Approval bypass indicators
  *   - Intercompany / clearing anomalies
+ *   - User pattern anomalies
  */
 
 "use strict";
